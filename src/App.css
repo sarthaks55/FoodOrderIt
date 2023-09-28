@@ -7,6 +7,49 @@
   pointer-events: none;
 }
 
+.body1 {
+  font-family: "Amazon Ember";
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+  background-image: 
+    url("/bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.body_main {
+  height: 100vh;
+  background-image: 
+  url("/bg_main.jpg");
+}
+
+.card {
+  color: antiquewhite;
+  box-shadow: 0 15px 25px rgba(129, 124, 124, 0.2);
+  border-radius: 15px;
+  backdrop-filter: blur(10px);
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.card:hover {
+  transform: scale(2) ;
+}
+
+.card1 {
+  font-size:xx-large;
+}
+
+.form-control {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.btn {
+  color: antiquewhite;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;

@@ -29,11 +29,9 @@ import { useNavigate } from 'react-router-dom';
    
 
   return (
-    <div className='body' style={{display:'grid',placeitems: 'center',justifyContent:'center',alignItems:'center', height:'70vh'}}>
+    <div className='body1' style={{display:'grid',placeitems: 'center',justifyContent:'center',alignItems:'center', height:'100vh' }}>
     <div className='container d-flex aligns-items-center justify-content-center ' >
-        <div className="p-3 mb-10 bg-dark-subtle text-emphasis-dark">
             <div className="card text-center " >
-                <div className="card-header">Featured</div>
                 <div className="card-body">
                     <h5 className="card-title">Please Enter your शुभ नाम   :)</h5>
                     <div className="input-group my-4 mb-3">
@@ -42,11 +40,10 @@ import { useNavigate } from 'react-router-dom';
                      </div>
                     {/* <Link to="/main" className="btn btn-primary">Go somewhere</Link> */}
                 </div>
-                <div className="card-footer text-body-secondary">2 days ago</div>
             </div>              
         </div>
     </div>
-    </div>
+
     
   )
 }
